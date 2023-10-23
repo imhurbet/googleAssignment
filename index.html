@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-     <!-- HEADER START -->
+     <!-- start of the header with Links -->
      <div class="header">
-        <div class="header-links">
-            <a href="images.html">Google Images</a>
-            <a href="advanced.html">Google Advanced Search</a>
-        </div>
+        <ul class="nav-google">
+            <li class="navbar-item-google"><a href="ImageSearch.html">Images</a></li>
+            <li class="navbar-item-google"><a href="advanceSearch.html"> Advanced Search</a></li>
+        </ul>
     </div>
-    <!-- HEADER END -->
+    <!-- End  -->
+
+    <!--Start of the Search container -->
     <div class="search-container">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
         <form action="https://www.google.com/search" method="get">
@@ -26,5 +28,8 @@
             <!-- Adding a name to the feeling lucky button includes the parameter in the URL -->
             <input type="submit" name="btnI" value="I'm feeling lucky">
         </form>
+
+        <!--End of the Search container-->
+
 </body>
 </html>
