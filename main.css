@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
 .nav-google{
     list-style-type: none;
     display: flex;
@@ -8,3 +13,10 @@
 .navbar-item-google{
     margin: 5px;
 }
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+  }
